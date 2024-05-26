@@ -1,0 +1,25 @@
+body {
+    overflow: hidden;
+}
+
+.heading {
+    margin: 30px auto;
+    text-align: center;
+    display: block;
+    max-width: 100%;
+    width: 100%;
+}
+
+h1 {
+    font-size: 2.4em;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    margin: -10px;
+}
+
+p {
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-style: italic;
+}
