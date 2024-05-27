@@ -95,18 +95,26 @@ input[type="radio"] {
 }
 
 select {
-    margin: 0 auto;
-    width: 80%;
-    padding: 10px;
-    border:  1px solid rgb(255, 140, 0);
+    display: block;  /* Ensure it behaves as a block element */
+    margin: 0 auto;  /* Center the element horizontally */
+    width: 100%;
+    height: 3em;
+    border: 1px solid rgb(255, 140, 0);
     border-radius: 10px;
+    box-sizing: border-box;
 }
 
+
 textarea {
+    display: block;
     width: 100%;
     border: 1px solid rgb(255, 140, 0);
     border-radius: 10px;
     height: 150px;
+    margin: 0 auto;
+}
+#user-message {
+    margin: -10px auto; 
 }
 
 input[type="submit"] {
