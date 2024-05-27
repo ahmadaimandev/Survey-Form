@@ -19,7 +19,7 @@ This survey form project is a part of the freeCodeCamp curriculum, specifically 
 Clone my repository
 
 ```bash
- git clone https://github.com/ahmadaimandev/Tribute-Page.git
+ git clone https://github.com/ahmadaimandev/Survey-Form.git
 ```
     
 ## Guidance 📚
