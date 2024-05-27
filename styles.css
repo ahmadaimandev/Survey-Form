@@ -49,13 +49,17 @@ form {
     border: 1px solid rgb(255, 140, 0);
 }
 
-label {
-    display: block;
-    font-family: "Roboto", sans-serif;
-    margin: 20px auto;
-    padding: 15px;
-    font-weight: bold;
+.user-credential, .user-select, .user-dropdown, .user-comments {
+    margin-bottom: 20px;
+    padding: 20px;
 }
+
+label {
+    font-weight: bold;
+    display: block;
+    margin: 10px;
+}
+
 
 input[type="submit"] {
     display: block;
@@ -71,6 +75,7 @@ input[type="submit"] {
     margin-bottom: 10px;
     width: 350px;
     cursor: pointer;
+    letter-spacing: 2px;
 }
 
 input[type="submit"]:hover {
