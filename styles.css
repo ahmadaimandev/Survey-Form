@@ -1,3 +1,18 @@
 :root {
     font-family: "Roboto", sans-serif;
 }
+
+.heading {
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    border: 1px dashed;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 900px;
+    padding: 10px 0 10px 0;
+}
+
+h1 {
+    text-transform: uppercase;
+}
