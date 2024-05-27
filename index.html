@@ -15,7 +15,42 @@
         <p id="description">Thank you for your time for taking this survey. I really appreciate it.</p>
     </div>
     <form action="" id="survey-form">
-        
+        <div class="user-credential">
+            <label for="email" id="email-label">
+                Email Address <input type="email" name="user-email" id="email" placeholder="Eg.example@mail.com"/ required>
+            </label>
+            <label for="name" id="name-label">
+                Name <input type="text" name="user-name" id="name" placeholder="Fullname" required>
+            </label>
+            <label for="age" id="age-label">
+                Age (optional) <input type="number" name="user-age" id="age" min="18" max="60" placeholder="Age">
+            </label>
+            <label for="number" id="number-label">
+                Phone Number <input type="text" name="user-number" id="number" placeholder="Eg.1 800 888 000">
+            </label>
+        </div>
+        <div class="user-select">
+            <legend>would you hire me into company ?</legend>
+            <label for="definitely">
+                <input type="radio" name="user-choices" id="definitely" value="definitely" checked> Definitely
+            </label>
+        </div>
+        <div class="user-dropdown">
+            <label for="dropdown">What project you guys want see me to build ?</label>
+            <select name="select-dropdown" id="dropdown">
+                <option value="">(Select an option)</option>
+                <option value="frontend">FrontEnd</option>
+                <option value="backend">BackEnd</option>
+                <option value="fullstack">FullStack</option>
+                <option value="web-design">Website Design</option>
+            </select>
+        </div>
+        <div class="user-comments">
+            <label for="message">Message:
+                <textarea name="message" id="message" rows="4" cols="40" placeholder="Leave your message here.."></textarea>
+            </label>
+        </div>
+        <input type="submit" value="Submit Feedback" id="submit">
     </form>
 </body>
 </html>
