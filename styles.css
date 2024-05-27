@@ -54,17 +54,4 @@ label {
     font-family: "Roboto", sans-serif;
 }
 
-input[type="submit"] {
-    width: 100%;
-    margin: 20px auto;
-    font-weight: bold;
-    text-transform: uppercase;
-    max-width: 500px;
-    cursor: pointer;
-    background-color: white;
-    border: 1px solid rgb(255, 140, 0);
-}
 
-input[type="submit"]:hover {
-    box-shadow: 5px 5px rgb(255, 140, 0);
-}
