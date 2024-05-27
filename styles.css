@@ -2,6 +2,7 @@
     font-family: "Roboto", sans-serif;
 }
 
+
 .heading {
     display: block;
     margin: auto;
@@ -33,4 +34,17 @@ p {
     font-weight: 300;
     text-transform: capitalize;
     font-size: 14px;
+}
+
+form {
+    width: 100%;
+    margin: 50px auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px rgb(255, 140, 0);
+    border-radius: 10px;
+    max-width: 900px;
+    transition: 0.5s ease-in-out;
+    display: block;
+    padding: 10px 0 10px 0;
+    border: 1px solid rgb(255, 140, 0);
 }
